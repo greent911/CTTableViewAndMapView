@@ -1,0 +1,281 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C046346517106DE000F0FB06 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C046346417106DE000F0FB06 /* UIKit.framework */; };
+		C046346717106DE000F0FB06 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C046346617106DE000F0FB06 /* Foundation.framework */; };
+		C046346917106DE000F0FB06 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C046346817106DE000F0FB06 /* CoreGraphics.framework */; };
+		C046346F17106DE000F0FB06 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C046346D17106DE000F0FB06 /* InfoPlist.strings */; };
+		C046347117106DE000F0FB06 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C046347017106DE000F0FB06 /* main.m */; };
+		C046347517106DE000F0FB06 /* CTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C046347417106DE000F0FB06 /* CTAppDelegate.m */; };
+		C046347817106DE000F0FB06 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C046347617106DE000F0FB06 /* MainStoryboard.storyboard */; };
+		C046347B17106DE000F0FB06 /* CTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C046347A17106DE000F0FB06 /* CTViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C046346017106DE000F0FB06 /* Cities.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cities.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C046346417106DE000F0FB06 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C046346617106DE000F0FB06 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C046346817106DE000F0FB06 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C046346C17106DE000F0FB06 /* Cities-Info.plist */ = {isa = PBXFileReference; path = "Cities-Info.plist"; sourceTree = "<group>"; };
+		C046346E17106DE000F0FB06 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C046347017106DE000F0FB06 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C046347217106DE000F0FB06 /* Cities-Prefix.pch */ = {isa = PBXFileReference; path = "Cities-Prefix.pch"; sourceTree = "<group>"; };
+		C046347317106DE000F0FB06 /* CTAppDelegate.h */ = {isa = PBXFileReference; path = CTAppDelegate.h; sourceTree = "<group>"; };
+		C046347417106DE000F0FB06 /* CTAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CTAppDelegate.m; sourceTree = "<group>"; };
+		C046347717106DE000F0FB06 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		C046347917106DE000F0FB06 /* CTViewController.h */ = {isa = PBXFileReference; path = CTViewController.h; sourceTree = "<group>"; };
+		C046347A17106DE000F0FB06 /* CTViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CTViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C046345D17106DE000F0FB06 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C046346517106DE000F0FB06 /* UIKit.framework in Frameworks */,
+				C046346717106DE000F0FB06 /* Foundation.framework in Frameworks */,
+				C046346917106DE000F0FB06 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C046345517106DE000F0FB06 = {
+			isa = PBXGroup;
+			children = (
+				C046346A17106DE000F0FB06 /* Cities */,
+				C046346317106DE000F0FB06 /* Frameworks */,
+				C046346117106DE000F0FB06 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C046346117106DE000F0FB06 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C046346017106DE000F0FB06 /* Cities.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C046346317106DE000F0FB06 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C046346417106DE000F0FB06 /* UIKit.framework */,
+				C046346617106DE000F0FB06 /* Foundation.framework */,
+				C046346817106DE000F0FB06 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C046346A17106DE000F0FB06 /* Cities */ = {
+			isa = PBXGroup;
+			children = (
+				C046347317106DE000F0FB06 /* CTAppDelegate.h */,
+				C046347417106DE000F0FB06 /* CTAppDelegate.m */,
+				C046347617106DE000F0FB06 /* MainStoryboard.storyboard */,
+				C046347917106DE000F0FB06 /* CTViewController.h */,
+				C046347A17106DE000F0FB06 /* CTViewController.m */,
+				C046346B17106DE000F0FB06 /* Supporting Files */,
+			);
+			path = Cities;
+			sourceTree = "<group>";
+		};
+		C046346B17106DE000F0FB06 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C046346C17106DE000F0FB06 /* Cities-Info.plist */,
+				C046346D17106DE000F0FB06 /* InfoPlist.strings */,
+				C046347017106DE000F0FB06 /* main.m */,
+				C046347217106DE000F0FB06 /* Cities-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C046345F17106DE000F0FB06 /* Cities */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C046347E17106DE000F0FB06 /* Build configuration list for PBXNativeTarget "Cities" */;
+			buildPhases = (
+				C046345C17106DE000F0FB06 /* Sources */,
+				C046345D17106DE000F0FB06 /* Frameworks */,
+				C046345E17106DE000F0FB06 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Cities;
+			productName = Cities;
+			productReference = C046346017106DE000F0FB06 /* Cities.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C046345717106DE000F0FB06 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = C046345A17106DE000F0FB06 /* Build configuration list for PBXProject "Cities" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C046345517106DE000F0FB06;
+			productRefGroup = C046346117106DE000F0FB06 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C046345F17106DE000F0FB06 /* Cities */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C046345E17106DE000F0FB06 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C046346F17106DE000F0FB06 /* InfoPlist.strings in Resources */,
+				C046347817106DE000F0FB06 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C046345C17106DE000F0FB06 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C046347117106DE000F0FB06 /* main.m in Sources */,
+				C046347517106DE000F0FB06 /* CTAppDelegate.m in Sources */,
+				C046347B17106DE000F0FB06 /* CTViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C046346D17106DE000F0FB06 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C046346E17106DE000F0FB06 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C046347617106DE000F0FB06 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C046347717106DE000F0FB06 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C046347C17106DE000F0FB06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C046347D17106DE000F0FB06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C046347F17106DE000F0FB06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Cities/Cities-Prefix.pch";
+				INFOPLIST_FILE = "Cities/Cities-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C046348017106DE000F0FB06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Cities/Cities-Prefix.pch";
+				INFOPLIST_FILE = "Cities/Cities-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C046345A17106DE000F0FB06 /* Build configuration list for PBXProject "Cities" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C046347C17106DE000F0FB06 /* Debug */,
+				C046347D17106DE000F0FB06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C046347E17106DE000F0FB06 /* Build configuration list for PBXNativeTarget "Cities" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C046347F17106DE000F0FB06 /* Debug */,
+				C046348017106DE000F0FB06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C046345717106DE000F0FB06 /* Project object */;
+}
