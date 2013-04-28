@@ -7,14 +7,16 @@
 //
 
 #import "CTViewController.h"
+#import "CTDataSource.h"
 
 @implementation CTViewController
 
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Release any cached data, images, etc that aren't in use.
-}
+@synthesize cityD;
+@synthesize imageView;
+@synthesize local;
+@synthesize lat;
+@synthesize lon;
+@synthesize region;
 
 #pragma mark - View lifecycle
 
@@ -26,6 +28,11 @@
 
 - (void)viewDidUnload
 {
+    [self setImageView:nil];
+    [self setLocal:nil];
+    [self setLat:nil];
+    [self setLon:nil];
+    [self setRegion:nil];
     [super viewDidUnload];
     // Release any retained subviews of the main view.
     // e.g. self.myOutlet = nil;
@@ -34,27 +41,23 @@
 - (void)viewWillAppear:(BOOL)animated
 {
     [super viewWillAppear:animated];
-}
+    //NSLog(@"%@",[cityD description]);
+    self.navigationItem.title=[cityD objectForKey:CTDataSourceDictKeyCity];
+    UIImage *image = [UIImage imageNamed:[cityD objectForKey:CTDataSourceDictKeyImage]];
+    
+    self.imageView.image = image;
+    
+    self.local.text=[cityD objectForKey:CTDataSourceDictKeyLocal];
+    self.lat.text=[cityD objectForKey:CTDataSourceDictKeyLatitude];
+    self.lon.text=[cityD objectForKey:CTDataSourceDictKeyLongtitude];
+    self.region.text=[cityD objectForKey:CTDataSourceDictKeyRegion];
 
-- (void)viewDidAppear:(BOOL)animated
-{
-    [super viewDidAppear:animated];
-}
-
-- (void)viewWillDisappear:(BOOL)animated
-{
-	[super viewWillDisappear:animated];
-}
-
-- (void)viewDidDisappear:(BOOL)animated
-{
-	[super viewDidDisappear:animated];
 }
 
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
 {
     // Return YES for supported orientations
-    return (interfaceOrientation != UIInterfaceOrientationPortraitUpsideDown);
+    return (interfaceOrientation == UIInterfaceOrientationPortrait);
 }
 
 @end

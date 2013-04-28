@@ -10,4 +10,11 @@
 
 @interface CTViewController : UIViewController
 
+@property (nonatomic, strong) NSDictionary *cityD;
+
+@property (strong, nonatomic) IBOutlet UIImageView *imageView;
+@property (strong, nonatomic) IBOutlet UILabel *local;
+@property (strong, nonatomic) IBOutlet UILabel *lat;
+@property (strong, nonatomic) IBOutlet UILabel *lon;
+@property (strong, nonatomic) IBOutlet UILabel *region;
 @end
