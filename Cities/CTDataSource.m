@@ -84,7 +84,7 @@ NSString * const CTDataSourceDictKeyImage=@"Image";
         // Save the result into cache
         [cache setObject:continents forKey:CTDataSourceCacheKeyContinent];
     }
-    //NSLog(@"array:%@",[continents description]);
+    //NSLog(@"arrayWithContinent:%@",[continents description]);
     
     return continents;
 }
@@ -129,12 +129,12 @@ NSString * const CTDataSourceDictKeyImage=@"Image";
         // Save the result into cache
         [cache setObject:countries forKey:cacheKey];
     }
-    NSLog(@"%@",[countries description]);
+    //NSLog(@"countries in %@:%@",continent,[countries description]);
     
     return countries;
 
 }
-- (NSArray *)arrayWithCityInCountries:(NSString *)country Continent:(NSString *)continent{
+- (NSArray *)arrayWithCitiesDictionaryInCountry:(NSString *)country andContinent:(NSString *)continent{
     NSString *cacheKey = [NSString stringWithFormat:CTDataSourceCacheKeyCities, country];
     NSArray *cities = [cache objectForKey:cacheKey];
     
@@ -157,19 +157,19 @@ NSString * const CTDataSourceDictKeyImage=@"Image";
         // Save the result into cache
         [cache setObject:cities forKey:cacheKey];
     }
-    NSLog(@"resultAirports:%@",[cities description]);
+    //NSLog(@"arrayWithCitiesDictionaryIn %@:%@",country,[cities description]);
     
     return cities;
 }
-- (NSDictionary *)DictionaryCityAtIndexPath:(NSIndexPath *)indexPath Continent:(NSString*)continent{
+- (NSDictionary *)dictionaryWithCityAtIndexPath:(NSIndexPath *)indexPath InContinent:(NSString*)continent{
     NSUInteger section = indexPath.section;
     NSUInteger row = indexPath.row;
     //NSString *country = [self arrayWithCountries][section];
     NSString *country = [[self arrayWithCountriesInContinent:continent] objectAtIndex:section];
     
     //NSDictionary *airport = [self arrayWithAirportInCountries:country][row];
-    NSDictionary *city = [[self arrayWithCityInCountries:country Continent:continent] objectAtIndex:row];
-    //NSLog(@"%@",city);
+    NSDictionary *city = [[self arrayWithCitiesDictionaryInCountry:country andContinent:continent] objectAtIndex:row];
+    //NSLog(@"dictionaryWithCityAtIndexPath in %@:%@",continent,city);
     
     return city;
 

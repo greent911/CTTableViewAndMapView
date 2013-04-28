@@ -44,7 +44,7 @@
     // Return the number of rows in the section.
     NSString *country = [[[CTDataSource sharedDataSource] arrayWithCountriesInContinent:continent] objectAtIndex:section];
     //NSLog(@"country:%@",country);
-    return [[[CTDataSource sharedDataSource] arrayWithCityInCountries:country Continent:continent] count];
+    return [[[CTDataSource sharedDataSource] arrayWithCitiesDictionaryInCountry:country andContinent:continent] count];
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
@@ -52,7 +52,7 @@
     static NSString *CellIdentifier = @"Cell";
     
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
-    NSString *city = [[[CTDataSource sharedDataSource] DictionaryCityAtIndexPath:indexPath Continent:continent] objectForKey:CTDataSourceDictKeyCity];
+    NSString *city = [[[CTDataSource sharedDataSource] dictionaryWithCityAtIndexPath:indexPath InContinent:continent] objectForKey:CTDataSourceDictKeyCity];
     
     if (cell == nil) {
         cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier];
@@ -71,7 +71,7 @@
     if ([segue.identifier isEqualToString:@"showDetail"]) {
         // Fetch data by index path from data source
         NSIndexPath *indexPath = [self.tableView indexPathForCell:cell];
-        NSDictionary *cityD = [[CTDataSource sharedDataSource] DictionaryCityAtIndexPath:indexPath Continent:continent];
+        NSDictionary *cityD = [[CTDataSource sharedDataSource] dictionaryWithCityAtIndexPath:indexPath InContinent:continent];
         //NSLog(@"%@",[airport description]);
         
         // Feed data to the destination of the segue

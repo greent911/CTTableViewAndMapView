@@ -36,8 +36,8 @@ extern NSString * const CTDataSourceDictKeyImage;
 - (NSArray *)arrayWithCountriesInContinent:(NSString *) continent;
 - (NSArray *)arrayWithCountriesDictionaryInContinent:(NSString *) continent;
 
-- (NSArray *)arrayWithCityInCountries:(NSString *)country Continent:(NSString *) continent;
-- (NSDictionary *)DictionaryCityAtIndexPath:(NSIndexPath *)indexPath Continent:(NSString*)continent;
+- (NSArray *)arrayWithCitiesDictionaryInCountry:(NSString *)country andContinent:(NSString *) continent;
+- (NSDictionary *)dictionaryWithCityAtIndexPath:(NSIndexPath *)indexPath InContinent:(NSString*)continent;
 
 
 
