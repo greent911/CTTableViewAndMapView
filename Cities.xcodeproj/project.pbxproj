@@ -15,6 +15,91 @@
 		C046347517106DE000F0FB06 /* CTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C046347417106DE000F0FB06 /* CTAppDelegate.m */; };
 		C046347817106DE000F0FB06 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C046347617106DE000F0FB06 /* MainStoryboard.storyboard */; };
 		C046347B17106DE000F0FB06 /* CTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C046347A17106DE000F0FB06 /* CTViewController.m */; };
+		C04634D317106E7F00F0FB06 /* Akihabara.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C046348217106E7F00F0FB06 /* Akihabara.jpg */; };
+		C04634D417106E7F00F0FB06 /* Auckland.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C046348317106E7F00F0FB06 /* Auckland.jpg */; };
+		C04634D517106E7F00F0FB06 /* Barcelona.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C046348417106E7F00F0FB06 /* Barcelona.jpg */; };
+		C04634D617106E7F00F0FB06 /* Beijing.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C046348517106E7F00F0FB06 /* Beijing.jpg */; };
+		C04634D717106E7F00F0FB06 /* Berlin.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C046348617106E7F00F0FB06 /* Berlin.jpg */; };
+		C04634D817106E7F00F0FB06 /* Birmingham.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C046348717106E7F00F0FB06 /* Birmingham.jpg */; };
+		C04634D917106E7F00F0FB06 /* Boston.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C046348817106E7F00F0FB06 /* Boston.jpg */; };
+		C04634DA17106E7F00F0FB06 /* BuenosAires.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C046348917106E7F00F0FB06 /* BuenosAires.jpg */; };
+		C04634DB17106E7F00F0FB06 /* Canberra.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C046348A17106E7F00F0FB06 /* Canberra.jpg */; };
+		C04634DC17106E7F00F0FB06 /* Cardiff.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C046348B17106E7F00F0FB06 /* Cardiff.jpg */; };
+		C04634DD17106E7F00F0FB06 /* Chiba.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C046348C17106E7F00F0FB06 /* Chiba.jpg */; };
+		C04634DE17106E7F00F0FB06 /* Chicago.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C046348D17106E7F00F0FB06 /* Chicago.jpg */; };
+		C04634DF17106E7F00F0FB06 /* Chongqing.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C046348E17106E7F00F0FB06 /* Chongqing.jpg */; };
+		C04634E017106E7F00F0FB06 /* Cologne.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C046348F17106E7F00F0FB06 /* Cologne.jpg */; };
+		C04634E117106E7F00F0FB06 /* Cupertino.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C046349017106E7F00F0FB06 /* Cupertino.jpg */; };
+		C04634E217106E7F00F0FB06 /* Edinburgh.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C046349117106E7F00F0FB06 /* Edinburgh.jpg */; };
+		C04634E317106E7F00F0FB06 /* Florence.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C046349217106E7F00F0FB06 /* Florence.jpg */; };
+		C04634E417106E7F00F0FB06 /* Frankfurt.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C046349317106E7F00F0FB06 /* Frankfurt.jpg */; };
+		C04634E517106E7F00F0FB06 /* Ginza.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C046349417106E7F00F0FB06 /* Ginza.jpg */; };
+		C04634E617106E7F00F0FB06 /* Guangzhou.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C046349517106E7F00F0FB06 /* Guangzhou.jpg */; };
+		C04634E717106E7F00F0FB06 /* Hamburg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C046349617106E7F00F0FB06 /* Hamburg.jpg */; };
+		C04634E817106E7F00F0FB06 /* HongKong.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C046349717106E7F00F0FB06 /* HongKong.jpg */; };
+		C04634E917106E7F00F0FB06 /* Houston.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C046349817106E7F00F0FB06 /* Houston.jpg */; };
+		C04634EA17106E7F00F0FB06 /* Hualien.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C046349917106E7F00F0FB06 /* Hualien.jpg */; };
+		C04634EB17106E7F00F0FB06 /* Ikebukuro.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C046349A17106E7F00F0FB06 /* Ikebukuro.jpg */; };
+		C04634EC17106E7F00F0FB06 /* Kaohsiung.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C046349B17106E7F00F0FB06 /* Kaohsiung.jpg */; };
+		C04634ED17106E7F00F0FB06 /* Kobe.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C046349C17106E7F00F0FB06 /* Kobe.jpg */; };
+		C04634EE17106E7F00F0FB06 /* KualaLumpur.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C046349D17106E7F00F0FB06 /* KualaLumpur.jpg */; };
+		C04634EF17106E7F00F0FB06 /* Kyoto.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C046349E17106E7F00F0FB06 /* Kyoto.jpg */; };
+		C04634F017106E7F00F0FB06 /* Leeds.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C046349F17106E7F00F0FB06 /* Leeds.jpg */; };
+		C04634F117106E7F00F0FB06 /* Liverpool.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C04634A017106E7F00F0FB06 /* Liverpool.jpg */; };
+		C04634F217106E7F00F0FB06 /* London.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C04634A117106E7F00F0FB06 /* London.jpg */; };
+		C04634F317106E7F00F0FB06 /* LosAngeles.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C04634A217106E7F00F0FB06 /* LosAngeles.jpg */; };
+		C04634F417106E7F00F0FB06 /* Lyon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C04634A317106E7F00F0FB06 /* Lyon.jpg */; };
+		C04634F517106E7F00F0FB06 /* Madrid.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C04634A417106E7F00F0FB06 /* Madrid.jpg */; };
+		C04634F617106E7F00F0FB06 /* Manchester.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C04634A517106E7F00F0FB06 /* Manchester.jpg */; };
+		C04634F717106E7F00F0FB06 /* Marseille.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C04634A617106E7F00F0FB06 /* Marseille.jpg */; };
+		C04634F817106E7F00F0FB06 /* Meguro.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C04634A717106E7F00F0FB06 /* Meguro.jpg */; };
+		C04634F917106E7F00F0FB06 /* Miami.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C04634A817106E7F00F0FB06 /* Miami.jpg */; };
+		C04634FA17106E7F00F0FB06 /* Milan.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C04634A917106E7F00F0FB06 /* Milan.jpg */; };
+		C04634FB17106E7F00F0FB06 /* Montreal.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C04634AA17106E7F00F0FB06 /* Montreal.jpg */; };
+		C04634FC17106E7F00F0FB06 /* MountainView.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C04634AB17106E7F00F0FB06 /* MountainView.jpg */; };
+		C04634FD17106E7F00F0FB06 /* Munich.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C04634AC17106E7F00F0FB06 /* Munich.jpg */; };
+		C04634FE17106E7F00F0FB06 /* Nagoya.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C04634AD17106E7F00F0FB06 /* Nagoya.jpg */; };
+		C04634FF17106E7F00F0FB06 /* Nanjing.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C04634AE17106E7F00F0FB06 /* Nanjing.jpg */; };
+		C046350017106E7F00F0FB06 /* Narita.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C04634AF17106E7F00F0FB06 /* Narita.jpg */; };
+		C046350117106E7F00F0FB06 /* NewYork.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C04634B017106E7F00F0FB06 /* NewYork.jpg */; };
+		C046350217106E7F00F0FB06 /* Osaka.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C04634B117106E7F00F0FB06 /* Osaka.jpg */; };
+		C046350317106E7F00F0FB06 /* Oxford.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C04634B217106E7F00F0FB06 /* Oxford.jpg */; };
+		C046350417106E7F00F0FB06 /* PaloAlto.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C04634B317106E7F00F0FB06 /* PaloAlto.jpg */; };
+		C046350517106E7F00F0FB06 /* Paris.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C04634B417106E7F00F0FB06 /* Paris.jpg */; };
+		C046350617106E7F00F0FB06 /* Philadelphia.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C04634B517106E7F00F0FB06 /* Philadelphia.jpg */; };
+		C046350717106E7F00F0FB06 /* RioDeJaneiro.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C04634B617106E7F00F0FB06 /* RioDeJaneiro.jpg */; };
+		C046350817106E7F00F0FB06 /* Rome.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C04634B717106E7F00F0FB06 /* Rome.jpg */; };
+		C046350917106E7F00F0FB06 /* Salvador.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C04634B817106E7F00F0FB06 /* Salvador.jpg */; };
+		C046350A17106E7F00F0FB06 /* SanFrancisco.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C04634B917106E7F00F0FB06 /* SanFrancisco.jpg */; };
+		C046350B17106E7F00F0FB06 /* SaoPaulo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C04634BA17106E7F00F0FB06 /* SaoPaulo.jpg */; };
+		C046350C17106E7F00F0FB06 /* Sapporo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C04634BB17106E7F00F0FB06 /* Sapporo.jpg */; };
+		C046350D17106E7F00F0FB06 /* Seattle.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C04634BC17106E7F00F0FB06 /* Seattle.jpg */; };
+		C046350E17106E7F00F0FB06 /* Shanghai.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C04634BD17106E7F00F0FB06 /* Shanghai.jpg */; };
+		C046350F17106E7F00F0FB06 /* Shenyang.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C04634BE17106E7F00F0FB06 /* Shenyang.jpg */; };
+		C046351017106E7F00F0FB06 /* Shibuya.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C04634BF17106E7F00F0FB06 /* Shibuya.jpg */; };
+		C046351117106E7F00F0FB06 /* Shinagawa.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C04634C017106E7F00F0FB06 /* Shinagawa.jpg */; };
+		C046351217106E7F00F0FB06 /* Shinjuku.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C04634C117106E7F00F0FB06 /* Shinjuku.jpg */; };
+		C046351317106E7F00F0FB06 /* Singapore.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C04634C217106E7F00F0FB06 /* Singapore.jpg */; };
+		C046351417106E7F00F0FB06 /* Sumida.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C04634C317106E7F00F0FB06 /* Sumida.jpg */; };
+		C046351517106E7F00F0FB06 /* Sydney.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C04634C417106E7F00F0FB06 /* Sydney.jpg */; };
+		C046351617106E7F00F0FB06 /* Taichung.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C04634C517106E7F00F0FB06 /* Taichung.jpg */; };
+		C046351717106E7F00F0FB06 /* Tainan.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C04634C617106E7F00F0FB06 /* Tainan.jpg */; };
+		C046351817106E7F00F0FB06 /* Taipei.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C04634C717106E7F00F0FB06 /* Taipei.jpg */; };
+		C046351917106E7F00F0FB06 /* Tianjin.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C04634C817106E7F00F0FB06 /* Tianjin.jpg */; };
+		C046351A17106E7F00F0FB06 /* Tokyo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C04634C917106E7F00F0FB06 /* Tokyo.jpg */; };
+		C046351B17106E7F00F0FB06 /* Toronto.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C04634CA17106E7F00F0FB06 /* Toronto.jpg */; };
+		C046351C17106E7F00F0FB06 /* Ueno.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C04634CB17106E7F00F0FB06 /* Ueno.jpg */; };
+		C046351D17106E7F00F0FB06 /* Vancouver.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C04634CC17106E7F00F0FB06 /* Vancouver.jpg */; };
+		C046351E17106E7F00F0FB06 /* Victoria.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C04634CD17106E7F00F0FB06 /* Victoria.jpg */; };
+		C046351F17106E7F00F0FB06 /* Washington.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C04634CE17106E7F00F0FB06 /* Washington.jpg */; };
+		C046352017106E7F00F0FB06 /* Wellington.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C04634CF17106E7F00F0FB06 /* Wellington.jpg */; };
+		C046352117106E7F00F0FB06 /* Westminster.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C04634D017106E7F00F0FB06 /* Westminster.jpg */; };
+		C046352217106E7F00F0FB06 /* Wuhan.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C04634D117106E7F00F0FB06 /* Wuhan.jpg */; };
+		C046352317106E7F00F0FB06 /* Yokohama.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C04634D217106E7F00F0FB06 /* Yokohama.jpg */; };
+		C046352717106EFB00F0FB06 /* citylist.plist in Resources */ = {isa = PBXBuildFile; fileRef = C046352617106EFB00F0FB06 /* citylist.plist */; };
+		C06AC20517107DE3003975F9 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C06AC20417107DE3003975F9 /* FirstViewController.m */; };
+		C06AC20917107E1B003975F9 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C06AC20817107E1B003975F9 /* SecondViewController.m */; };
+		C06AC20C17107ED1003975F9 /* CTDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = C06AC20B17107ED1003975F9 /* CTDataSource.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,15 +107,103 @@
 		C046346417106DE000F0FB06 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		C046346617106DE000F0FB06 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		C046346817106DE000F0FB06 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		C046346C17106DE000F0FB06 /* Cities-Info.plist */ = {isa = PBXFileReference; path = "Cities-Info.plist"; sourceTree = "<group>"; };
+		C046346C17106DE000F0FB06 /* Cities-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Cities-Info.plist"; sourceTree = "<group>"; };
 		C046346E17106DE000F0FB06 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C046347017106DE000F0FB06 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		C046347217106DE000F0FB06 /* Cities-Prefix.pch */ = {isa = PBXFileReference; path = "Cities-Prefix.pch"; sourceTree = "<group>"; };
-		C046347317106DE000F0FB06 /* CTAppDelegate.h */ = {isa = PBXFileReference; path = CTAppDelegate.h; sourceTree = "<group>"; };
+		C046347217106DE000F0FB06 /* Cities-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Cities-Prefix.pch"; sourceTree = "<group>"; };
+		C046347317106DE000F0FB06 /* CTAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CTAppDelegate.h; sourceTree = "<group>"; };
 		C046347417106DE000F0FB06 /* CTAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CTAppDelegate.m; sourceTree = "<group>"; };
 		C046347717106DE000F0FB06 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		C046347917106DE000F0FB06 /* CTViewController.h */ = {isa = PBXFileReference; path = CTViewController.h; sourceTree = "<group>"; };
+		C046347917106DE000F0FB06 /* CTViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CTViewController.h; sourceTree = "<group>"; };
 		C046347A17106DE000F0FB06 /* CTViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CTViewController.m; sourceTree = "<group>"; };
+		C046348217106E7F00F0FB06 /* Akihabara.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Akihabara.jpg; path = images/Akihabara.jpg; sourceTree = "<group>"; };
+		C046348317106E7F00F0FB06 /* Auckland.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Auckland.jpg; path = images/Auckland.jpg; sourceTree = "<group>"; };
+		C046348417106E7F00F0FB06 /* Barcelona.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Barcelona.jpg; path = images/Barcelona.jpg; sourceTree = "<group>"; };
+		C046348517106E7F00F0FB06 /* Beijing.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Beijing.jpg; path = images/Beijing.jpg; sourceTree = "<group>"; };
+		C046348617106E7F00F0FB06 /* Berlin.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Berlin.jpg; path = images/Berlin.jpg; sourceTree = "<group>"; };
+		C046348717106E7F00F0FB06 /* Birmingham.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Birmingham.jpg; path = images/Birmingham.jpg; sourceTree = "<group>"; };
+		C046348817106E7F00F0FB06 /* Boston.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Boston.jpg; path = images/Boston.jpg; sourceTree = "<group>"; };
+		C046348917106E7F00F0FB06 /* BuenosAires.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = BuenosAires.jpg; path = images/BuenosAires.jpg; sourceTree = "<group>"; };
+		C046348A17106E7F00F0FB06 /* Canberra.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Canberra.jpg; path = images/Canberra.jpg; sourceTree = "<group>"; };
+		C046348B17106E7F00F0FB06 /* Cardiff.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Cardiff.jpg; path = images/Cardiff.jpg; sourceTree = "<group>"; };
+		C046348C17106E7F00F0FB06 /* Chiba.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Chiba.jpg; path = images/Chiba.jpg; sourceTree = "<group>"; };
+		C046348D17106E7F00F0FB06 /* Chicago.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Chicago.jpg; path = images/Chicago.jpg; sourceTree = "<group>"; };
+		C046348E17106E7F00F0FB06 /* Chongqing.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Chongqing.jpg; path = images/Chongqing.jpg; sourceTree = "<group>"; };
+		C046348F17106E7F00F0FB06 /* Cologne.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Cologne.jpg; path = images/Cologne.jpg; sourceTree = "<group>"; };
+		C046349017106E7F00F0FB06 /* Cupertino.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Cupertino.jpg; path = images/Cupertino.jpg; sourceTree = "<group>"; };
+		C046349117106E7F00F0FB06 /* Edinburgh.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Edinburgh.jpg; path = images/Edinburgh.jpg; sourceTree = "<group>"; };
+		C046349217106E7F00F0FB06 /* Florence.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Florence.jpg; path = images/Florence.jpg; sourceTree = "<group>"; };
+		C046349317106E7F00F0FB06 /* Frankfurt.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Frankfurt.jpg; path = images/Frankfurt.jpg; sourceTree = "<group>"; };
+		C046349417106E7F00F0FB06 /* Ginza.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Ginza.jpg; path = images/Ginza.jpg; sourceTree = "<group>"; };
+		C046349517106E7F00F0FB06 /* Guangzhou.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Guangzhou.jpg; path = images/Guangzhou.jpg; sourceTree = "<group>"; };
+		C046349617106E7F00F0FB06 /* Hamburg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Hamburg.jpg; path = images/Hamburg.jpg; sourceTree = "<group>"; };
+		C046349717106E7F00F0FB06 /* HongKong.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = HongKong.jpg; path = images/HongKong.jpg; sourceTree = "<group>"; };
+		C046349817106E7F00F0FB06 /* Houston.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Houston.jpg; path = images/Houston.jpg; sourceTree = "<group>"; };
+		C046349917106E7F00F0FB06 /* Hualien.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Hualien.jpg; path = images/Hualien.jpg; sourceTree = "<group>"; };
+		C046349A17106E7F00F0FB06 /* Ikebukuro.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Ikebukuro.jpg; path = images/Ikebukuro.jpg; sourceTree = "<group>"; };
+		C046349B17106E7F00F0FB06 /* Kaohsiung.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Kaohsiung.jpg; path = images/Kaohsiung.jpg; sourceTree = "<group>"; };
+		C046349C17106E7F00F0FB06 /* Kobe.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Kobe.jpg; path = images/Kobe.jpg; sourceTree = "<group>"; };
+		C046349D17106E7F00F0FB06 /* KualaLumpur.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = KualaLumpur.jpg; path = images/KualaLumpur.jpg; sourceTree = "<group>"; };
+		C046349E17106E7F00F0FB06 /* Kyoto.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Kyoto.jpg; path = images/Kyoto.jpg; sourceTree = "<group>"; };
+		C046349F17106E7F00F0FB06 /* Leeds.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Leeds.jpg; path = images/Leeds.jpg; sourceTree = "<group>"; };
+		C04634A017106E7F00F0FB06 /* Liverpool.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Liverpool.jpg; path = images/Liverpool.jpg; sourceTree = "<group>"; };
+		C04634A117106E7F00F0FB06 /* London.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = London.jpg; path = images/London.jpg; sourceTree = "<group>"; };
+		C04634A217106E7F00F0FB06 /* LosAngeles.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = LosAngeles.jpg; path = images/LosAngeles.jpg; sourceTree = "<group>"; };
+		C04634A317106E7F00F0FB06 /* Lyon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Lyon.jpg; path = images/Lyon.jpg; sourceTree = "<group>"; };
+		C04634A417106E7F00F0FB06 /* Madrid.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Madrid.jpg; path = images/Madrid.jpg; sourceTree = "<group>"; };
+		C04634A517106E7F00F0FB06 /* Manchester.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Manchester.jpg; path = images/Manchester.jpg; sourceTree = "<group>"; };
+		C04634A617106E7F00F0FB06 /* Marseille.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Marseille.jpg; path = images/Marseille.jpg; sourceTree = "<group>"; };
+		C04634A717106E7F00F0FB06 /* Meguro.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Meguro.jpg; path = images/Meguro.jpg; sourceTree = "<group>"; };
+		C04634A817106E7F00F0FB06 /* Miami.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Miami.jpg; path = images/Miami.jpg; sourceTree = "<group>"; };
+		C04634A917106E7F00F0FB06 /* Milan.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Milan.jpg; path = images/Milan.jpg; sourceTree = "<group>"; };
+		C04634AA17106E7F00F0FB06 /* Montreal.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Montreal.jpg; path = images/Montreal.jpg; sourceTree = "<group>"; };
+		C04634AB17106E7F00F0FB06 /* MountainView.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = MountainView.jpg; path = images/MountainView.jpg; sourceTree = "<group>"; };
+		C04634AC17106E7F00F0FB06 /* Munich.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Munich.jpg; path = images/Munich.jpg; sourceTree = "<group>"; };
+		C04634AD17106E7F00F0FB06 /* Nagoya.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Nagoya.jpg; path = images/Nagoya.jpg; sourceTree = "<group>"; };
+		C04634AE17106E7F00F0FB06 /* Nanjing.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Nanjing.jpg; path = images/Nanjing.jpg; sourceTree = "<group>"; };
+		C04634AF17106E7F00F0FB06 /* Narita.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Narita.jpg; path = images/Narita.jpg; sourceTree = "<group>"; };
+		C04634B017106E7F00F0FB06 /* NewYork.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = NewYork.jpg; path = images/NewYork.jpg; sourceTree = "<group>"; };
+		C04634B117106E7F00F0FB06 /* Osaka.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Osaka.jpg; path = images/Osaka.jpg; sourceTree = "<group>"; };
+		C04634B217106E7F00F0FB06 /* Oxford.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Oxford.jpg; path = images/Oxford.jpg; sourceTree = "<group>"; };
+		C04634B317106E7F00F0FB06 /* PaloAlto.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = PaloAlto.jpg; path = images/PaloAlto.jpg; sourceTree = "<group>"; };
+		C04634B417106E7F00F0FB06 /* Paris.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Paris.jpg; path = images/Paris.jpg; sourceTree = "<group>"; };
+		C04634B517106E7F00F0FB06 /* Philadelphia.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Philadelphia.jpg; path = images/Philadelphia.jpg; sourceTree = "<group>"; };
+		C04634B617106E7F00F0FB06 /* RioDeJaneiro.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = RioDeJaneiro.jpg; path = images/RioDeJaneiro.jpg; sourceTree = "<group>"; };
+		C04634B717106E7F00F0FB06 /* Rome.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Rome.jpg; path = images/Rome.jpg; sourceTree = "<group>"; };
+		C04634B817106E7F00F0FB06 /* Salvador.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Salvador.jpg; path = images/Salvador.jpg; sourceTree = "<group>"; };
+		C04634B917106E7F00F0FB06 /* SanFrancisco.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = SanFrancisco.jpg; path = images/SanFrancisco.jpg; sourceTree = "<group>"; };
+		C04634BA17106E7F00F0FB06 /* SaoPaulo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = SaoPaulo.jpg; path = images/SaoPaulo.jpg; sourceTree = "<group>"; };
+		C04634BB17106E7F00F0FB06 /* Sapporo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Sapporo.jpg; path = images/Sapporo.jpg; sourceTree = "<group>"; };
+		C04634BC17106E7F00F0FB06 /* Seattle.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Seattle.jpg; path = images/Seattle.jpg; sourceTree = "<group>"; };
+		C04634BD17106E7F00F0FB06 /* Shanghai.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Shanghai.jpg; path = images/Shanghai.jpg; sourceTree = "<group>"; };
+		C04634BE17106E7F00F0FB06 /* Shenyang.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Shenyang.jpg; path = images/Shenyang.jpg; sourceTree = "<group>"; };
+		C04634BF17106E7F00F0FB06 /* Shibuya.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Shibuya.jpg; path = images/Shibuya.jpg; sourceTree = "<group>"; };
+		C04634C017106E7F00F0FB06 /* Shinagawa.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Shinagawa.jpg; path = images/Shinagawa.jpg; sourceTree = "<group>"; };
+		C04634C117106E7F00F0FB06 /* Shinjuku.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Shinjuku.jpg; path = images/Shinjuku.jpg; sourceTree = "<group>"; };
+		C04634C217106E7F00F0FB06 /* Singapore.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Singapore.jpg; path = images/Singapore.jpg; sourceTree = "<group>"; };
+		C04634C317106E7F00F0FB06 /* Sumida.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Sumida.jpg; path = images/Sumida.jpg; sourceTree = "<group>"; };
+		C04634C417106E7F00F0FB06 /* Sydney.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Sydney.jpg; path = images/Sydney.jpg; sourceTree = "<group>"; };
+		C04634C517106E7F00F0FB06 /* Taichung.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Taichung.jpg; path = images/Taichung.jpg; sourceTree = "<group>"; };
+		C04634C617106E7F00F0FB06 /* Tainan.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Tainan.jpg; path = images/Tainan.jpg; sourceTree = "<group>"; };
+		C04634C717106E7F00F0FB06 /* Taipei.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Taipei.jpg; path = images/Taipei.jpg; sourceTree = "<group>"; };
+		C04634C817106E7F00F0FB06 /* Tianjin.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Tianjin.jpg; path = images/Tianjin.jpg; sourceTree = "<group>"; };
+		C04634C917106E7F00F0FB06 /* Tokyo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Tokyo.jpg; path = images/Tokyo.jpg; sourceTree = "<group>"; };
+		C04634CA17106E7F00F0FB06 /* Toronto.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Toronto.jpg; path = images/Toronto.jpg; sourceTree = "<group>"; };
+		C04634CB17106E7F00F0FB06 /* Ueno.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Ueno.jpg; path = images/Ueno.jpg; sourceTree = "<group>"; };
+		C04634CC17106E7F00F0FB06 /* Vancouver.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Vancouver.jpg; path = images/Vancouver.jpg; sourceTree = "<group>"; };
+		C04634CD17106E7F00F0FB06 /* Victoria.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Victoria.jpg; path = images/Victoria.jpg; sourceTree = "<group>"; };
+		C04634CE17106E7F00F0FB06 /* Washington.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Washington.jpg; path = images/Washington.jpg; sourceTree = "<group>"; };
+		C04634CF17106E7F00F0FB06 /* Wellington.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Wellington.jpg; path = images/Wellington.jpg; sourceTree = "<group>"; };
+		C04634D017106E7F00F0FB06 /* Westminster.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Westminster.jpg; path = images/Westminster.jpg; sourceTree = "<group>"; };
+		C04634D117106E7F00F0FB06 /* Wuhan.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Wuhan.jpg; path = images/Wuhan.jpg; sourceTree = "<group>"; };
+		C04634D217106E7F00F0FB06 /* Yokohama.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Yokohama.jpg; path = images/Yokohama.jpg; sourceTree = "<group>"; };
+		C046352617106EFB00F0FB06 /* citylist.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = citylist.plist; sourceTree = "<group>"; };
+		C06AC20317107DE3003975F9 /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		C06AC20417107DE3003975F9 /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		C06AC20717107E1B003975F9 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		C06AC20817107E1B003975F9 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		C06AC20A17107ED1003975F9 /* CTDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTDataSource.h; sourceTree = "<group>"; };
+		C06AC20B17107ED1003975F9 /* CTDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTDataSource.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,11 +250,14 @@
 		C046346A17106DE000F0FB06 /* Cities */ = {
 			isa = PBXGroup;
 			children = (
+				C06AC21217115B3B003975F9 /* Detail View */,
+				C06AC20D17108262003975F9 /* Continent List */,
+				C046352517106ED400F0FB06 /* Data source */,
+				C046352417106E9B00F0FB06 /* City List */,
+				C046348117106E2F00F0FB06 /* images */,
 				C046347317106DE000F0FB06 /* CTAppDelegate.h */,
 				C046347417106DE000F0FB06 /* CTAppDelegate.m */,
 				C046347617106DE000F0FB06 /* MainStoryboard.storyboard */,
-				C046347917106DE000F0FB06 /* CTViewController.h */,
-				C046347A17106DE000F0FB06 /* CTViewController.m */,
 				C046346B17106DE000F0FB06 /* Supporting Files */,
 			);
 			path = Cities;
@@ -96,6 +272,131 @@
 				C046347217106DE000F0FB06 /* Cities-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C046348117106E2F00F0FB06 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				C046348217106E7F00F0FB06 /* Akihabara.jpg */,
+				C046348317106E7F00F0FB06 /* Auckland.jpg */,
+				C046348417106E7F00F0FB06 /* Barcelona.jpg */,
+				C046348517106E7F00F0FB06 /* Beijing.jpg */,
+				C046348617106E7F00F0FB06 /* Berlin.jpg */,
+				C046348717106E7F00F0FB06 /* Birmingham.jpg */,
+				C046348817106E7F00F0FB06 /* Boston.jpg */,
+				C046348917106E7F00F0FB06 /* BuenosAires.jpg */,
+				C046348A17106E7F00F0FB06 /* Canberra.jpg */,
+				C046348B17106E7F00F0FB06 /* Cardiff.jpg */,
+				C046348C17106E7F00F0FB06 /* Chiba.jpg */,
+				C046348D17106E7F00F0FB06 /* Chicago.jpg */,
+				C046348E17106E7F00F0FB06 /* Chongqing.jpg */,
+				C046348F17106E7F00F0FB06 /* Cologne.jpg */,
+				C046349017106E7F00F0FB06 /* Cupertino.jpg */,
+				C046349117106E7F00F0FB06 /* Edinburgh.jpg */,
+				C046349217106E7F00F0FB06 /* Florence.jpg */,
+				C046349317106E7F00F0FB06 /* Frankfurt.jpg */,
+				C046349417106E7F00F0FB06 /* Ginza.jpg */,
+				C046349517106E7F00F0FB06 /* Guangzhou.jpg */,
+				C046349617106E7F00F0FB06 /* Hamburg.jpg */,
+				C046349717106E7F00F0FB06 /* HongKong.jpg */,
+				C046349817106E7F00F0FB06 /* Houston.jpg */,
+				C046349917106E7F00F0FB06 /* Hualien.jpg */,
+				C046349A17106E7F00F0FB06 /* Ikebukuro.jpg */,
+				C046349B17106E7F00F0FB06 /* Kaohsiung.jpg */,
+				C046349C17106E7F00F0FB06 /* Kobe.jpg */,
+				C046349D17106E7F00F0FB06 /* KualaLumpur.jpg */,
+				C046349E17106E7F00F0FB06 /* Kyoto.jpg */,
+				C046349F17106E7F00F0FB06 /* Leeds.jpg */,
+				C04634A017106E7F00F0FB06 /* Liverpool.jpg */,
+				C04634A117106E7F00F0FB06 /* London.jpg */,
+				C04634A217106E7F00F0FB06 /* LosAngeles.jpg */,
+				C04634A317106E7F00F0FB06 /* Lyon.jpg */,
+				C04634A417106E7F00F0FB06 /* Madrid.jpg */,
+				C04634A517106E7F00F0FB06 /* Manchester.jpg */,
+				C04634A617106E7F00F0FB06 /* Marseille.jpg */,
+				C04634A717106E7F00F0FB06 /* Meguro.jpg */,
+				C04634A817106E7F00F0FB06 /* Miami.jpg */,
+				C04634A917106E7F00F0FB06 /* Milan.jpg */,
+				C04634AA17106E7F00F0FB06 /* Montreal.jpg */,
+				C04634AB17106E7F00F0FB06 /* MountainView.jpg */,
+				C04634AC17106E7F00F0FB06 /* Munich.jpg */,
+				C04634AD17106E7F00F0FB06 /* Nagoya.jpg */,
+				C04634AE17106E7F00F0FB06 /* Nanjing.jpg */,
+				C04634AF17106E7F00F0FB06 /* Narita.jpg */,
+				C04634B017106E7F00F0FB06 /* NewYork.jpg */,
+				C04634B117106E7F00F0FB06 /* Osaka.jpg */,
+				C04634B217106E7F00F0FB06 /* Oxford.jpg */,
+				C04634B317106E7F00F0FB06 /* PaloAlto.jpg */,
+				C04634B417106E7F00F0FB06 /* Paris.jpg */,
+				C04634B517106E7F00F0FB06 /* Philadelphia.jpg */,
+				C04634B617106E7F00F0FB06 /* RioDeJaneiro.jpg */,
+				C04634B717106E7F00F0FB06 /* Rome.jpg */,
+				C04634B817106E7F00F0FB06 /* Salvador.jpg */,
+				C04634B917106E7F00F0FB06 /* SanFrancisco.jpg */,
+				C04634BA17106E7F00F0FB06 /* SaoPaulo.jpg */,
+				C04634BB17106E7F00F0FB06 /* Sapporo.jpg */,
+				C04634BC17106E7F00F0FB06 /* Seattle.jpg */,
+				C04634BD17106E7F00F0FB06 /* Shanghai.jpg */,
+				C04634BE17106E7F00F0FB06 /* Shenyang.jpg */,
+				C04634BF17106E7F00F0FB06 /* Shibuya.jpg */,
+				C04634C017106E7F00F0FB06 /* Shinagawa.jpg */,
+				C04634C117106E7F00F0FB06 /* Shinjuku.jpg */,
+				C04634C217106E7F00F0FB06 /* Singapore.jpg */,
+				C04634C317106E7F00F0FB06 /* Sumida.jpg */,
+				C04634C417106E7F00F0FB06 /* Sydney.jpg */,
+				C04634C517106E7F00F0FB06 /* Taichung.jpg */,
+				C04634C617106E7F00F0FB06 /* Tainan.jpg */,
+				C04634C717106E7F00F0FB06 /* Taipei.jpg */,
+				C04634C817106E7F00F0FB06 /* Tianjin.jpg */,
+				C04634C917106E7F00F0FB06 /* Tokyo.jpg */,
+				C04634CA17106E7F00F0FB06 /* Toronto.jpg */,
+				C04634CB17106E7F00F0FB06 /* Ueno.jpg */,
+				C04634CC17106E7F00F0FB06 /* Vancouver.jpg */,
+				C04634CD17106E7F00F0FB06 /* Victoria.jpg */,
+				C04634CE17106E7F00F0FB06 /* Washington.jpg */,
+				C04634CF17106E7F00F0FB06 /* Wellington.jpg */,
+				C04634D017106E7F00F0FB06 /* Westminster.jpg */,
+				C04634D117106E7F00F0FB06 /* Wuhan.jpg */,
+				C04634D217106E7F00F0FB06 /* Yokohama.jpg */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+		C046352417106E9B00F0FB06 /* City List */ = {
+			isa = PBXGroup;
+			children = (
+				C06AC20717107E1B003975F9 /* SecondViewController.h */,
+				C06AC20817107E1B003975F9 /* SecondViewController.m */,
+			);
+			name = "City List";
+			sourceTree = "<group>";
+		};
+		C046352517106ED400F0FB06 /* Data source */ = {
+			isa = PBXGroup;
+			children = (
+				C046352617106EFB00F0FB06 /* citylist.plist */,
+				C06AC20A17107ED1003975F9 /* CTDataSource.h */,
+				C06AC20B17107ED1003975F9 /* CTDataSource.m */,
+			);
+			name = "Data source";
+			sourceTree = "<group>";
+		};
+		C06AC20D17108262003975F9 /* Continent List */ = {
+			isa = PBXGroup;
+			children = (
+				C06AC20317107DE3003975F9 /* FirstViewController.h */,
+				C06AC20417107DE3003975F9 /* FirstViewController.m */,
+			);
+			name = "Continent List";
+			sourceTree = "<group>";
+		};
+		C06AC21217115B3B003975F9 /* Detail View */ = {
+			isa = PBXGroup;
+			children = (
+				C046347917106DE000F0FB06 /* CTViewController.h */,
+				C046347A17106DE000F0FB06 /* CTViewController.m */,
+			);
+			name = "Detail View";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -150,6 +451,88 @@
 			files = (
 				C046346F17106DE000F0FB06 /* InfoPlist.strings in Resources */,
 				C046347817106DE000F0FB06 /* MainStoryboard.storyboard in Resources */,
+				C04634D317106E7F00F0FB06 /* Akihabara.jpg in Resources */,
+				C04634D417106E7F00F0FB06 /* Auckland.jpg in Resources */,
+				C04634D517106E7F00F0FB06 /* Barcelona.jpg in Resources */,
+				C04634D617106E7F00F0FB06 /* Beijing.jpg in Resources */,
+				C04634D717106E7F00F0FB06 /* Berlin.jpg in Resources */,
+				C04634D817106E7F00F0FB06 /* Birmingham.jpg in Resources */,
+				C04634D917106E7F00F0FB06 /* Boston.jpg in Resources */,
+				C04634DA17106E7F00F0FB06 /* BuenosAires.jpg in Resources */,
+				C04634DB17106E7F00F0FB06 /* Canberra.jpg in Resources */,
+				C04634DC17106E7F00F0FB06 /* Cardiff.jpg in Resources */,
+				C04634DD17106E7F00F0FB06 /* Chiba.jpg in Resources */,
+				C04634DE17106E7F00F0FB06 /* Chicago.jpg in Resources */,
+				C04634DF17106E7F00F0FB06 /* Chongqing.jpg in Resources */,
+				C04634E017106E7F00F0FB06 /* Cologne.jpg in Resources */,
+				C04634E117106E7F00F0FB06 /* Cupertino.jpg in Resources */,
+				C04634E217106E7F00F0FB06 /* Edinburgh.jpg in Resources */,
+				C04634E317106E7F00F0FB06 /* Florence.jpg in Resources */,
+				C04634E417106E7F00F0FB06 /* Frankfurt.jpg in Resources */,
+				C04634E517106E7F00F0FB06 /* Ginza.jpg in Resources */,
+				C04634E617106E7F00F0FB06 /* Guangzhou.jpg in Resources */,
+				C04634E717106E7F00F0FB06 /* Hamburg.jpg in Resources */,
+				C04634E817106E7F00F0FB06 /* HongKong.jpg in Resources */,
+				C04634E917106E7F00F0FB06 /* Houston.jpg in Resources */,
+				C04634EA17106E7F00F0FB06 /* Hualien.jpg in Resources */,
+				C04634EB17106E7F00F0FB06 /* Ikebukuro.jpg in Resources */,
+				C04634EC17106E7F00F0FB06 /* Kaohsiung.jpg in Resources */,
+				C04634ED17106E7F00F0FB06 /* Kobe.jpg in Resources */,
+				C04634EE17106E7F00F0FB06 /* KualaLumpur.jpg in Resources */,
+				C04634EF17106E7F00F0FB06 /* Kyoto.jpg in Resources */,
+				C04634F017106E7F00F0FB06 /* Leeds.jpg in Resources */,
+				C04634F117106E7F00F0FB06 /* Liverpool.jpg in Resources */,
+				C04634F217106E7F00F0FB06 /* London.jpg in Resources */,
+				C04634F317106E7F00F0FB06 /* LosAngeles.jpg in Resources */,
+				C04634F417106E7F00F0FB06 /* Lyon.jpg in Resources */,
+				C04634F517106E7F00F0FB06 /* Madrid.jpg in Resources */,
+				C04634F617106E7F00F0FB06 /* Manchester.jpg in Resources */,
+				C04634F717106E7F00F0FB06 /* Marseille.jpg in Resources */,
+				C04634F817106E7F00F0FB06 /* Meguro.jpg in Resources */,
+				C04634F917106E7F00F0FB06 /* Miami.jpg in Resources */,
+				C04634FA17106E7F00F0FB06 /* Milan.jpg in Resources */,
+				C04634FB17106E7F00F0FB06 /* Montreal.jpg in Resources */,
+				C04634FC17106E7F00F0FB06 /* MountainView.jpg in Resources */,
+				C04634FD17106E7F00F0FB06 /* Munich.jpg in Resources */,
+				C04634FE17106E7F00F0FB06 /* Nagoya.jpg in Resources */,
+				C04634FF17106E7F00F0FB06 /* Nanjing.jpg in Resources */,
+				C046350017106E7F00F0FB06 /* Narita.jpg in Resources */,
+				C046350117106E7F00F0FB06 /* NewYork.jpg in Resources */,
+				C046350217106E7F00F0FB06 /* Osaka.jpg in Resources */,
+				C046350317106E7F00F0FB06 /* Oxford.jpg in Resources */,
+				C046350417106E7F00F0FB06 /* PaloAlto.jpg in Resources */,
+				C046350517106E7F00F0FB06 /* Paris.jpg in Resources */,
+				C046350617106E7F00F0FB06 /* Philadelphia.jpg in Resources */,
+				C046350717106E7F00F0FB06 /* RioDeJaneiro.jpg in Resources */,
+				C046350817106E7F00F0FB06 /* Rome.jpg in Resources */,
+				C046350917106E7F00F0FB06 /* Salvador.jpg in Resources */,
+				C046350A17106E7F00F0FB06 /* SanFrancisco.jpg in Resources */,
+				C046350B17106E7F00F0FB06 /* SaoPaulo.jpg in Resources */,
+				C046350C17106E7F00F0FB06 /* Sapporo.jpg in Resources */,
+				C046350D17106E7F00F0FB06 /* Seattle.jpg in Resources */,
+				C046350E17106E7F00F0FB06 /* Shanghai.jpg in Resources */,
+				C046350F17106E7F00F0FB06 /* Shenyang.jpg in Resources */,
+				C046351017106E7F00F0FB06 /* Shibuya.jpg in Resources */,
+				C046351117106E7F00F0FB06 /* Shinagawa.jpg in Resources */,
+				C046351217106E7F00F0FB06 /* Shinjuku.jpg in Resources */,
+				C046351317106E7F00F0FB06 /* Singapore.jpg in Resources */,
+				C046351417106E7F00F0FB06 /* Sumida.jpg in Resources */,
+				C046351517106E7F00F0FB06 /* Sydney.jpg in Resources */,
+				C046351617106E7F00F0FB06 /* Taichung.jpg in Resources */,
+				C046351717106E7F00F0FB06 /* Tainan.jpg in Resources */,
+				C046351817106E7F00F0FB06 /* Taipei.jpg in Resources */,
+				C046351917106E7F00F0FB06 /* Tianjin.jpg in Resources */,
+				C046351A17106E7F00F0FB06 /* Tokyo.jpg in Resources */,
+				C046351B17106E7F00F0FB06 /* Toronto.jpg in Resources */,
+				C046351C17106E7F00F0FB06 /* Ueno.jpg in Resources */,
+				C046351D17106E7F00F0FB06 /* Vancouver.jpg in Resources */,
+				C046351E17106E7F00F0FB06 /* Victoria.jpg in Resources */,
+				C046351F17106E7F00F0FB06 /* Washington.jpg in Resources */,
+				C046352017106E7F00F0FB06 /* Wellington.jpg in Resources */,
+				C046352117106E7F00F0FB06 /* Westminster.jpg in Resources */,
+				C046352217106E7F00F0FB06 /* Wuhan.jpg in Resources */,
+				C046352317106E7F00F0FB06 /* Yokohama.jpg in Resources */,
+				C046352717106EFB00F0FB06 /* citylist.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -163,6 +546,9 @@
 				C046347117106DE000F0FB06 /* main.m in Sources */,
 				C046347517106DE000F0FB06 /* CTAppDelegate.m in Sources */,
 				C046347B17106DE000F0FB06 /* CTViewController.m in Sources */,
+				C06AC20517107DE3003975F9 /* FirstViewController.m in Sources */,
+				C06AC20917107E1B003975F9 /* SecondViewController.m in Sources */,
+				C06AC20C17107ED1003975F9 /* CTDataSource.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,6 +660,7 @@
 				C046348017106DE000F0FB06 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
