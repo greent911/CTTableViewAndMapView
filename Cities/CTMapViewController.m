@@ -37,6 +37,17 @@
     
     
 }
+-(void) viewWillAppear:(BOOL)animated
+{
+    [super viewWillAppear:animated];
+    
+    MKCoordinateRegion region=[[CTDataSource sharedDataSource] regionFromNow];
+    //NSLog(@"(%f,%f)",region.center.latitude,region.center.longitude);
+    if (region.center.latitude !=0.0 && region.center.longitude !=0.0) {
+        [self.mapView setRegion:region];
+    }
+
+}
 
 #pragma mark - Map view delegate
 

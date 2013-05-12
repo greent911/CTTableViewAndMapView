@@ -16,6 +16,15 @@
 
 @synthesize continent;
 
+- (void)viewDidLoad
+{
+    [super viewDidLoad];
+    
+    [[CTDataSource sharedDataSource] calculateMapViewRegion:continent];
+    
+    
+}
+
 #pragma mark - View lifecycle
 
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation

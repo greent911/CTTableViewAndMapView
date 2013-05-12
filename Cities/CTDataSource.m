@@ -15,6 +15,7 @@ static NSString *CTDataSourceCacheKeyContinent = @"CTDataSource.Cache.Continent"
 static NSString *CTDataSourceCacheKeyCountries = @"CTDataSource.Cache.%@.Countries";
 static NSString *CTDataSourceCacheKeyCities = @"CTDataSource.Cache.%@.Cities";
 
+
 // Dictionary Keys
 NSString * const CTDataSourceDictKeyCityID=@"cityID";
 NSString * const CTDataSourceDictKeyRegion=@"Region";
@@ -29,11 +30,14 @@ NSString * const CTDataSourceDictKeyImage=@"Image";
 @interface CTDataSource ()
 {
     NSMutableArray *annotations;
+    MKCoordinateRegion region;
 }
 
 @end
 
 @implementation CTDataSource
+
+
 
 #pragma mark -
 #pragma mark Object Lifecycle
@@ -75,6 +79,12 @@ NSString * const CTDataSourceDictKeyImage=@"Image";
     [cache removeAllObjects];
 }
 
+- (MKCoordinateRegion)regionFromNow
+{
+    return region;
+}
+
+
 - (NSArray *)arrayWithContinent{
     NSArray *continents = [cache objectForKey:CTDataSourceCacheKeyContinent];
     
@@ -113,6 +123,42 @@ NSString * const CTDataSourceDictKeyImage=@"Image";
              }]];
 
 }
+-(void) calculateMapViewRegion:(NSString *) continent
+{
+    NSArray *resultCities =[self arrayWithCountriesDictionaryInContinent:continent];
+    
+   
+    
+    CLLocationCoordinate2D upper;
+    upper.latitude=[[[resultCities objectAtIndex:0] objectForKey:CTDataSourceDictKeyLatitude] doubleValue];
+    upper.longitude=[[[resultCities objectAtIndex:0] objectForKey:CTDataSourceDictKeyLongtitude] doubleValue];
+    CLLocationCoordinate2D lower;
+    lower.latitude=[[[resultCities objectAtIndex:0] objectForKey:CTDataSourceDictKeyLatitude] doubleValue];
+    lower.longitude=[[[resultCities objectAtIndex:0] objectForKey:CTDataSourceDictKeyLongtitude] doubleValue];
+    
+    
+    for (NSDictionary *city in resultCities) {
+       // CLLocationCoordinate2D latitude = [city[CTDataSourceDictKeyLatitude] intValue];
+       // CLLocationCoordinate2D longitude = [city[CTDataSourceDictKeyLongtitude] intValue];
+        
+        if([city[CTDataSourceDictKeyLatitude] doubleValue] > upper.latitude) upper.latitude = [city[CTDataSourceDictKeyLatitude] doubleValue];
+        if([city[CTDataSourceDictKeyLatitude] doubleValue] < lower.latitude) lower.latitude = [city[CTDataSourceDictKeyLatitude] doubleValue];
+        if([city[CTDataSourceDictKeyLongtitude] doubleValue] > upper.longitude) upper.longitude= [city[CTDataSourceDictKeyLongtitude] doubleValue];
+        if([city[CTDataSourceDictKeyLongtitude] doubleValue] < lower.longitude) lower.longitude = [city[CTDataSourceDictKeyLongtitude] doubleValue];
+    }
+    
+    MKCoordinateSpan locationSpan;
+    locationSpan.latitudeDelta = upper.latitude - lower.latitude;
+    locationSpan.longitudeDelta = upper.longitude - lower.longitude;
+    
+    CLLocationCoordinate2D locationCenter;
+    locationCenter.latitude = (upper.latitude + lower.latitude) / 2;
+    locationCenter.longitude = (upper.longitude + lower.longitude) / 2;
+    
+    region = MKCoordinateRegionMake(locationCenter, locationSpan);
+
+}
+
 - (NSArray *)arrayWithCountriesInContinent:(NSString *) continent{
     NSString *cacheKey = [NSString stringWithFormat:CTDataSourceCacheKeyCountries, continent];
     NSArray *countries = [cache objectForKey:cacheKey];

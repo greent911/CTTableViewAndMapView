@@ -106,7 +106,13 @@
                             <constraint firstItem="hhX-YA-a7H" firstAttribute="top" secondItem="149-jR-Wde" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="vlx-Vh-Pq2"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="Bv2-6a-UmP"/>
+                    <navigationItem key="navigationItem" id="Bv2-6a-UmP">
+                        <barButtonItem key="rightBarButtonItem" systemItem="action" id="dyp-a1-aKW">
+                            <connections>
+                                <action selector="share:" destination="2" id="2hL-zJ-qmD"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                     <connections>
                         <outlet property="imageView" destination="J4D-0X-Xz4" id="Few-QR-TUo"/>
                         <outlet property="lat" destination="hhX-YA-a7H" id="57m-Oc-qNh"/>
@@ -278,34 +284,6 @@
             <point key="canvasLocation" x="-372" y="1098"/>
         </scene>
     </scenes>
-    <classes>
-        <class className="CTMapViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/CTMapViewController.h"/>
-            <relationships>
-                <relationship kind="action" name="reloadLocations:"/>
-                <relationship kind="outlet" name="mapView" candidateClass="MKMapView"/>
-            </relationships>
-        </class>
-        <class className="CTViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/CTViewController.h"/>
-            <relationships>
-                <relationship kind="outlet" name="imageView" candidateClass="UIImageView"/>
-                <relationship kind="outlet" name="lat" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="local" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="lon" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="region" candidateClass="UILabel"/>
-            </relationships>
-        </class>
-        <class className="FirstViewController" superclassName="UITableViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/FirstViewController.h"/>
-        </class>
-        <class className="NSLayoutConstraint" superclassName="NSObject">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/NSLayoutConstraint.h"/>
-        </class>
-        <class className="SecondViewController" superclassName="UITableViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/SecondViewController.h"/>
-        </class>
-    </classes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>

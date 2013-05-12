@@ -46,6 +46,8 @@ extern NSString * const CTDataSourceDictKeyImage;
 
 @property (nonatomic, strong, readonly) NSArray *annotations;
 
+-(void) calculateMapViewRegion:(NSString *) continent;
+- (MKCoordinateRegion)regionFromNow;
 
 
 @end

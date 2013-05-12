@@ -60,4 +60,53 @@
     return (interfaceOrientation == UIInterfaceOrientationPortrait);
 }
 
+- (IBAction)share:(id)sender {
+    UIActionSheet *targetSheet = [[UIActionSheet alloc] initWithTitle:@"Select social network service to post"
+                                                             delegate:self
+                                                    cancelButtonTitle:@"Cancel"
+                                               destructiveButtonTitle:nil
+                                                    otherButtonTitles:@"Facebook", @"Twitter", nil];
+    UIWindow *mainWindow = [[UIApplication sharedApplication] windows][0];
+    [targetSheet showInView:mainWindow];
+
+}
+
+#pragma mark - UIActionSheetDelegate
+
+- (void)actionSheet:(UIActionSheet *)actionSheet didDismissWithButtonIndex:(NSInteger)buttonIndex {
+    // We use SLComposer here. This will post on behalf of iOS or OS X.
+    
+    NSString *serviceType = nil;
+    if (buttonIndex==0) {
+        // Facebook
+        serviceType = SLServiceTypeFacebook;
+    } else if (buttonIndex==1) {
+        // Twitter
+        serviceType = SLServiceTypeTwitter;
+    } else {
+        return;
+    }
+    
+    if (buttonIndex==0 || buttonIndex==1) {
+        SLComposeViewController *composer = [SLComposeViewController composeViewControllerForServiceType:serviceType];
+        NSString *text= [NSString stringWithFormat:@"%@\n",self.navigationItem.title];
+        [composer setInitialText:text];
+        [composer addImage:self.imageView.image];
+        composer.completionHandler = ^(SLComposeViewControllerResult result) {
+            NSString *title = nil;
+            if (result==SLComposeViewControllerResultCancelled) title = @"Post canceled";
+            else if (result==SLComposeViewControllerResultDone) title = @"Post sent";
+            else title = @"Unknown";
+            
+            UIAlertView *alertView = [[UIAlertView alloc] initWithTitle:title
+                                                                message:nil
+                                                               delegate:nil
+                                                      cancelButtonTitle:@"OK"
+                                                      otherButtonTitles:nil];
+            [alertView show];
+        };
+        [self presentViewController:composer animated:YES completion:nil];
+    }
+}
+
 @end
