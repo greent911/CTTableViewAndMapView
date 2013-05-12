@@ -7,6 +7,8 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <MapKit/MapKit.h>
+
 
 extern NSString * const CTDataSourceDictKeyCityID;
 extern NSString * const CTDataSourceDictKeyRegion;
@@ -38,10 +40,11 @@ extern NSString * const CTDataSourceDictKeyImage;
 
 - (NSArray *)arrayWithCitiesDictionaryInCountry:(NSString *)country andContinent:(NSString *) continent;
 - (NSDictionary *)dictionaryWithCityAtIndexPath:(NSIndexPath *)indexPath InContinent:(NSString*)continent;
+-(NSDictionary *)dictionaryWithCity:(NSString *)city;
 
+- (void)reloadLocationData;
 
-
-
+@property (nonatomic, strong, readonly) NSArray *annotations;
 
 
 

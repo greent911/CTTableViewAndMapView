@@ -7,6 +7,8 @@
 //
 
 #import "CTDataSource.h"
+#import <CoreLocation/CoreLocation.h>
+
 
 // Cache Keys
 static NSString *CTDataSourceCacheKeyContinent = @"CTDataSource.Cache.Continent";
@@ -25,6 +27,9 @@ NSString * const CTDataSourceDictKeyCity=@"City";
 NSString * const CTDataSourceDictKeyImage=@"Image";
 
 @interface CTDataSource ()
+{
+    NSMutableArray *annotations;
+}
 
 @end
 
@@ -48,6 +53,10 @@ NSString * const CTDataSourceDictKeyImage=@"Image";
         cityList = [NSArray arrayWithContentsOfFile:path];
         
         cache = [[NSCache alloc] init];
+        
+        annotations = [NSMutableArray array];
+
+        [self reloadLocationData];
     }
     return self;
 }
@@ -174,5 +183,47 @@ NSString * const CTDataSourceDictKeyImage=@"Image";
     return city;
 
 }
+- (void)reloadLocationData
+{
+    NSString *path = [[NSBundle mainBundle] pathForResource:@"citylist" ofType:@"plist"];
+    cityList = [NSArray arrayWithContentsOfFile:path];
+    //NSLog(@"%@",[cityList description]);
+    
+    // Remove old annotations
+    [annotations removeAllObjects];
+    
+    for (NSDictionary *city in cityList) {
+        MKPointAnnotation *annotation = [[MKPointAnnotation alloc] init];
+        CLLocationDegrees latitude = [city[CTDataSourceDictKeyLatitude] doubleValue];
+        CLLocationDegrees longitude = [city[CTDataSourceDictKeyLongtitude] doubleValue];
+        
+        annotation.coordinate = CLLocationCoordinate2DMake(latitude, longitude);
+        annotation.title = city[CTDataSourceDictKeyCity];
+        
+        //may add changes there!!!!
+        
+        [annotations addObject:annotation];
+        // NSLog(@"%@",[annotation title]);
+       // NSLog(@"%@",[annotations description]);
+        
+    }
+    
+}
+
+- (NSArray *)annotations {
+    return [NSArray arrayWithArray:annotations];
+}
+-(NSDictionary *)dictionaryWithCity:(NSString *)city{
+    
+    NSDictionary *cityContent=nil;
+    for (NSDictionary *cityD in cityList) {
+        if ([[cityD objectForKey:CTDataSourceDictKeyCity] isEqualToString:city]) {
+            cityContent=cityD;
+        }
+    }
+    return cityContent;
+    
+}
+
 
 @end

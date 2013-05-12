@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C03275D417379296004BE9A7 /* CTMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C03275D317379296004BE9A7 /* CTMapViewController.m */; };
+		C03275D717379723004BE9A7 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C03275D617379723004BE9A7 /* MapKit.framework */; };
 		C046346517106DE000F0FB06 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C046346417106DE000F0FB06 /* UIKit.framework */; };
 		C046346717106DE000F0FB06 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C046346617106DE000F0FB06 /* Foundation.framework */; };
 		C046346917106DE000F0FB06 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C046346817106DE000F0FB06 /* CoreGraphics.framework */; };
@@ -100,10 +102,14 @@
 		C06AC20517107DE3003975F9 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C06AC20417107DE3003975F9 /* FirstViewController.m */; };
 		C06AC20917107E1B003975F9 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C06AC20817107E1B003975F9 /* SecondViewController.m */; };
 		C06AC20C17107ED1003975F9 /* CTDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = C06AC20B17107ED1003975F9 /* CTDataSource.m */; };
+		C0F301AA1737DF170020DFBC /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0F301A91737DF170020DFBC /* CoreLocation.framework */; };
 		C0F700CB173576C900D10074 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C0F700CA173576C900D10074 /* Default-568h@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C03275D217379296004BE9A7 /* CTMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTMapViewController.h; sourceTree = "<group>"; };
+		C03275D317379296004BE9A7 /* CTMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTMapViewController.m; sourceTree = "<group>"; };
+		C03275D617379723004BE9A7 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		C046346017106DE000F0FB06 /* Cities.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cities.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C046346417106DE000F0FB06 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		C046346617106DE000F0FB06 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -205,6 +211,7 @@
 		C06AC20817107E1B003975F9 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		C06AC20A17107ED1003975F9 /* CTDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTDataSource.h; sourceTree = "<group>"; };
 		C06AC20B17107ED1003975F9 /* CTDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTDataSource.m; sourceTree = "<group>"; };
+		C0F301A91737DF170020DFBC /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		C0F700CA173576C900D10074 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -213,6 +220,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C0F301AA1737DF170020DFBC /* CoreLocation.framework in Frameworks */,
+				C03275D717379723004BE9A7 /* MapKit.framework in Frameworks */,
 				C046346517106DE000F0FB06 /* UIKit.framework in Frameworks */,
 				C046346717106DE000F0FB06 /* Foundation.framework in Frameworks */,
 				C046346917106DE000F0FB06 /* CoreGraphics.framework in Frameworks */,
@@ -222,6 +231,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C03275D5173792AE004BE9A7 /* Map View */ = {
+			isa = PBXGroup;
+			children = (
+				C03275D217379296004BE9A7 /* CTMapViewController.h */,
+				C03275D317379296004BE9A7 /* CTMapViewController.m */,
+			);
+			name = "Map View";
+			sourceTree = "<group>";
+		};
 		C046345517106DE000F0FB06 = {
 			isa = PBXGroup;
 			children = (
@@ -243,6 +261,8 @@
 		C046346317106DE000F0FB06 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				C0F301A91737DF170020DFBC /* CoreLocation.framework */,
+				C03275D617379723004BE9A7 /* MapKit.framework */,
 				C046346417106DE000F0FB06 /* UIKit.framework */,
 				C046346617106DE000F0FB06 /* Foundation.framework */,
 				C046346817106DE000F0FB06 /* CoreGraphics.framework */,
@@ -253,6 +273,7 @@
 		C046346A17106DE000F0FB06 /* Cities */ = {
 			isa = PBXGroup;
 			children = (
+				C03275D5173792AE004BE9A7 /* Map View */,
 				C06AC21217115B3B003975F9 /* Detail View */,
 				C06AC20D17108262003975F9 /* Continent List */,
 				C046352517106ED400F0FB06 /* Data source */,
@@ -553,6 +574,7 @@
 				C06AC20517107DE3003975F9 /* FirstViewController.m in Sources */,
 				C06AC20917107E1B003975F9 /* SecondViewController.m in Sources */,
 				C06AC20C17107ED1003975F9 /* CTDataSource.m in Sources */,
+				C03275D417379296004BE9A7 /* CTMapViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
