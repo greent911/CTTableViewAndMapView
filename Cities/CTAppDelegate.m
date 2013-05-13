@@ -16,6 +16,14 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    UITabBarController *tabBarController = (UITabBarController *)self.window.rootViewController;
+    UITabBar *tabBar = tabBarController.tabBar;
+    //UITabBarItem *tabBarItem1 = [tabBar.items objectAtIndex:0];
+    
+    [tabBar setTintColor:[UIColor redColor]];
+    //tabBarItem1.title = @"Home";
+
+    
     return YES;
 }
 							

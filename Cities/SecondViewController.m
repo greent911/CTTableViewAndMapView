@@ -9,6 +9,7 @@
 #import "SecondViewController.h"
 #import "CTDataSource.h"
 #import "CTViewController.h"
+#import "CTTableViewCell.h"
 
 
 
@@ -23,6 +24,11 @@
     [[CTDataSource sharedDataSource] calculateMapViewRegion:continent];
     
     
+}
+- (void)viewWillAppear:(BOOL)animated
+{
+    [super viewWillAppear:animated];
+    self.navigationItem.title=continent;
 }
 
 #pragma mark - View lifecycle
@@ -61,14 +67,19 @@
     static NSString *CellIdentifier = @"Cell";
     
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
-    NSString *city = [[[CTDataSource sharedDataSource] dictionaryWithCityAtIndexPath:indexPath InContinent:continent] objectForKey:CTDataSourceDictKeyCity];
+   // NSString *city = [[[CTDataSource sharedDataSource] dictionaryWithCityAtIndexPath:indexPath InContinent:continent] objectForKey:CTDataSourceDictKeyCity];
     
     if (cell == nil) {
         cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier];
     }
     
+    CTTableViewCell *cityCell = (CTTableViewCell *)cell;
+
+    
     // Configure the cell...
-    cell.textLabel.text=city;
+    cityCell.nameLabel.text=[[[CTDataSource sharedDataSource] dictionaryWithCityAtIndexPath:indexPath InContinent:continent] objectForKey:CTDataSourceDictKeyCity];
+    cityCell.regionLabel.text=[[[CTDataSource sharedDataSource] dictionaryWithCityAtIndexPath:indexPath InContinent:continent] objectForKey:CTDataSourceDictKeyRegion];
+    cityCell.cityImageView.image=[UIImage imageNamed:[[[CTDataSource sharedDataSource] dictionaryWithCityAtIndexPath:indexPath InContinent:continent] objectForKey:CTDataSourceDictKeyImage]];
     
     return cell;
 }

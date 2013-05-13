@@ -102,6 +102,9 @@
 		C06AC20517107DE3003975F9 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C06AC20417107DE3003975F9 /* FirstViewController.m */; };
 		C06AC20917107E1B003975F9 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C06AC20817107E1B003975F9 /* SecondViewController.m */; };
 		C06AC20C17107ED1003975F9 /* CTDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = C06AC20B17107ED1003975F9 /* CTDataSource.m */; };
+		C07451871740A46000575994 /* globe.png in Resources */ = {isa = PBXBuildFile; fileRef = C07451851740A46000575994 /* globe.png */; };
+		C07451881740A46000575994 /* magnifying_glass.png in Resources */ = {isa = PBXBuildFile; fileRef = C07451861740A46000575994 /* magnifying_glass.png */; };
+		C0901C661740945900957966 /* CTTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C0901C651740945900957966 /* CTTableViewCell.m */; };
 		C0B77174173F9A90001BC754 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0B77173173F9A90001BC754 /* Accounts.framework */; };
 		C0B77176173F9AA6001BC754 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0B77175173F9AA6001BC754 /* Social.framework */; };
 		C0F301AA1737DF170020DFBC /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0F301A91737DF170020DFBC /* CoreLocation.framework */; };
@@ -213,6 +216,10 @@
 		C06AC20817107E1B003975F9 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		C06AC20A17107ED1003975F9 /* CTDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTDataSource.h; sourceTree = "<group>"; };
 		C06AC20B17107ED1003975F9 /* CTDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTDataSource.m; sourceTree = "<group>"; };
+		C07451851740A46000575994 /* globe.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = globe.png; sourceTree = "<group>"; };
+		C07451861740A46000575994 /* magnifying_glass.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = magnifying_glass.png; sourceTree = "<group>"; };
+		C0901C641740945900957966 /* CTTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTTableViewCell.h; sourceTree = "<group>"; };
+		C0901C651740945900957966 /* CTTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTTableViewCell.m; sourceTree = "<group>"; };
 		C0B77173173F9A90001BC754 /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
 		C0B77175173F9AA6001BC754 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
 		C0F301A91737DF170020DFBC /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
@@ -287,6 +294,8 @@
 				C046352517106ED400F0FB06 /* Data source */,
 				C046352417106E9B00F0FB06 /* City List */,
 				C046348117106E2F00F0FB06 /* images */,
+				C0901C641740945900957966 /* CTTableViewCell.h */,
+				C0901C651740945900957966 /* CTTableViewCell.m */,
 				C046347317106DE000F0FB06 /* CTAppDelegate.h */,
 				C046347417106DE000F0FB06 /* CTAppDelegate.m */,
 				C046347617106DE000F0FB06 /* MainStoryboard.storyboard */,
@@ -298,6 +307,8 @@
 		C046346B17106DE000F0FB06 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				C07451851740A46000575994 /* globe.png */,
+				C07451861740A46000575994 /* magnifying_glass.png */,
 				C046346C17106DE000F0FB06 /* Cities-Info.plist */,
 				C046346D17106DE000F0FB06 /* InfoPlist.strings */,
 				C046347017106DE000F0FB06 /* main.m */,
@@ -566,6 +577,8 @@
 				C046352317106E7F00F0FB06 /* Yokohama.jpg in Resources */,
 				C046352717106EFB00F0FB06 /* citylist.plist in Resources */,
 				C0F700CB173576C900D10074 /* Default-568h@2x.png in Resources */,
+				C07451871740A46000575994 /* globe.png in Resources */,
+				C07451881740A46000575994 /* magnifying_glass.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -583,6 +596,7 @@
 				C06AC20917107E1B003975F9 /* SecondViewController.m in Sources */,
 				C06AC20C17107ED1003975F9 /* CTDataSource.m in Sources */,
 				C03275D417379296004BE9A7 /* CTMapViewController.m in Sources */,
+				C0901C661740945900957966 /* CTTableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
