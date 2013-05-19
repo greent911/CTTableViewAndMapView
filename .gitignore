@@ -16,3 +16,5 @@ profile
 *.moved-aside
 DerivedData
 .idea/
+Cities.xcodeproj/project.xcworkspace/xcuserdata/greent.xcuserdatad/WorkspaceSettings.xcsettings
+Cities.xcodeproj/project.xcworkspace/xcuserdata/greent.xcuserdatad/UserInterfaceState.xcuserstate
